@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle romaslot2022",
+        "command": "romaslot2022:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "romaslot2022",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "romaslot2022:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
